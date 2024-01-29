@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    position: absolute;
+}
+
+main #home {
+    background-color: #452D24;
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    height: 810px;
+    width: 1440px;
+}
