@@ -38,3 +38,17 @@ nav ul li a {
     font-weight: 600;
 
 }
+
+#home {
+    background-color: var(--bg-color-400);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home img {
+    width: 144rem;
+    height: 700px;
+    object-fit: cover;
+    
+}
