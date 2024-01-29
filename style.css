@@ -50,5 +50,33 @@ nav ul li a {
     width: 144rem;
     height: 700px;
     object-fit: cover;
-    
 }
+
+#about {
+    display: flex;
+    
+    margin-top: 10rem;
+    margin-inline: 11rem;
+}
+
+#about h2 {
+    font-weight: 700;
+    font-size: 6rem;
+    color: var(--bg-color-400);
+
+    margin-bottom: 5rem;
+}
+
+#about p {
+    width: 50rem;    
+    color: var(--bg-color-300);
+    text-align: justify;
+
+    margin-bottom: .5rem;
+}
+
+#about img {
+    width: 55rem;
+    height: auto;
+}
+
