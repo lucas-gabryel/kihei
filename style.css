@@ -18,6 +18,23 @@ body {
     font-size: 1.6rem;
 }
 
-#home nav {
+header {
     background-color: var(--bg-color-200);
+    padding-block: 3rem;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 5rem;
+
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--bg-color-400);
+    font-weight: 600;
+
 }
