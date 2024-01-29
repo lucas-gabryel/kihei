@@ -4,17 +4,20 @@
     box-sizing: border-box;
 }
 
-ul {
-    position: absolute;
+:root {
+    font-size: 62.5%;
+
+    --bg-color-100: #fff;
+    --bg-color-200: #F2EAE4;
+    --bg-color-300: #915E4C;
+    --bg-color-400: #452D24;
 }
 
-main #home {
-    background-color: #452D24;
-    display: flex;
-    justify-content: center;
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
 }
 
-main img {
-    height: 810px;
-    width: 1440px;
+#home nav {
+    background-color: var(--bg-color-200);
 }
