@@ -54,9 +54,10 @@ nav ul li a {
 
 #about {
     display: flex;
+    justify-content: center;
+    align-items: center;
     
-    margin-top: 10rem;
-    margin-inline: 11rem;
+    margin: 10rem 11rem;
 }
 
 #about h2 {
@@ -80,3 +81,47 @@ nav ul li a {
     height: auto;
 }
 
+#sale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--bg-color-200);
+
+    margin-inline: 11rem;
+    padding: 7.2rem;
+}
+
+#sale h2 {
+    font-weight: 700;
+    font-size: 6rem;
+    color: var(--bg-color-400);
+
+    margin-bottom: 4rem; 
+}
+
+.galeria {
+    display: flex;
+    gap: 3.8rem;
+}
+
+.galeria .item {
+    width: 33.2rem;
+    height: 33.2rem;
+    background-color: var(--bg-color-300);
+
+    border-radius: 4rem;
+}
+
+#sale button {
+    border: 0;
+    border-radius: 4rem;
+    background-color: var(--bg-color-400);
+    
+    color: var(--bg-color-200);
+    font-size: 1.8rem;
+
+    padding: 2.4rem 8rem;
+    margin-top: 6rem;
+}
